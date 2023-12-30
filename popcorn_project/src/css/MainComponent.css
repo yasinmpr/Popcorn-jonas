@@ -1,0 +1,5 @@
+.mainComponent {
+    width: 60%;
+    height: calc(90% - 80px);
+    background-color: red;
+}

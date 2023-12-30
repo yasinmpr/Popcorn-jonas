@@ -1,0 +1,40 @@
+.searchResult {
+    width: 45%;
+    height: 100%;
+
+    background-color: rgb(49, 51, 59);
+}
+
+.movie {
+    width: 100%;
+    height: min(50px, fit-content);
+    border-bottom: 2px solid rgb(14, 14, 30);
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.movie img {
+    display: block;
+    height: 80px;
+    width: 60px;
+    background-color: red;
+    margin-inline: 25px;
+}
+
+.movie .movieDetaile {
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.movie .movieDetaile .movieName {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
