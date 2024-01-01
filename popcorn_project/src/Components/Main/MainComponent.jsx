@@ -1,6 +1,5 @@
-import { useState } from "react";
-import "../css/MainComponent.css";
-import SearchResultComponent from "./SearchListResultComponent";
+import "./MainComponent.css";
+import { SearchResultComponent } from "../components";
 
 function MainComponent() {
     return (

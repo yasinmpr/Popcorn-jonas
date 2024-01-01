@@ -1,15 +1,10 @@
 import { useState } from "react";
-import Header from "./Components/HeaderComponent";
-import MainComponent from "./Components/MainComponent";
-import "./css/main.css";
-
+import { Header, MainComponent } from "./Components/components";
 function App() {
     return (
         <>
-            <div className="main">
-                <Header />
-                <MainComponent />
-            </div>
+            <Header />
+            <MainComponent />
         </>
     );
 }

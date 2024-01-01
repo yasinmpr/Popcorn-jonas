@@ -1,5 +1,4 @@
-import { useState } from "react";
-import "../css/Header.css";
+import "./Header.css";
 
 function Header() {
     return (

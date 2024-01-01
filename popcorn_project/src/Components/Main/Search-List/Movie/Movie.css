@@ -1,14 +1,8 @@
-.searchResult {
-    width: 45%;
-    height: 100%;
-
-    background-color: rgb(49, 51, 59);
-}
-
 .movie {
     width: 100%;
     height: min(50px, fit-content);
-    border-bottom: 2px solid rgb(14, 14, 30);
+    border-bottom: 2px solid red;
+    /* border-bottom: 2px solid rgb(14, 14, 30); */
 
     display: flex;
     align-items: center;
@@ -26,14 +20,14 @@
     margin-inline: 25px;
 }
 
-.movie .movieDetaile {
+.movie .movieDetail {
     color: white;
     height: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.movie .movieDetaile .movieName {
+.movie .movieDetail .movieName {
     font-size: 20px;
     font-weight: bold;
     margin: 5px;
